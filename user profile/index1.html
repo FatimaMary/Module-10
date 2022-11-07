@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Simple interest Calculation</h2>
+    <input type="number" id="p">
+    <input type="number" id="n">
+    <input type="number" id="r">
+    <!-- <button type="button" onclick="interest(p, n, r)">Interest</button> -->
+    <button type="button" onclick="document.write(interest(p, n , r))">Interest</button>
+    <script>
+        // var p = 1000;
+        // var n = 2;
+        // var r = 2
+
+        // document.getElementById("p").value = p
+        // document.getElementById("n").value = n
+        // document.getElementById("r").value = r
+
+        function interest(p, n, r) {
+            return (p * n * r)/ 100;
+        }
+        
+        // document.getElementById()
+        window.alert(interest(p, n, r))
+    </script>
+</body>
+</html>
