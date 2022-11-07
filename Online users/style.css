@@ -20,7 +20,7 @@ body{
     background-color: springgreen;
     flex: auto;
 }
-.my-online-users{
+.my-online-user{
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +34,7 @@ body{
     border-radius: .3rem;
 }
 .user-name{
-    order: 1;
+    order: -1;
 }
 
 .user-online{

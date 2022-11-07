@@ -22,5 +22,5 @@ getUsers().then(users => {
     </div>
     <div class="main-content">Main Content</div>
     <div class="footer">Footer</div>
-    `;
+    `
 })

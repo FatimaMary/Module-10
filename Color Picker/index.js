@@ -11,7 +11,7 @@ function displayColors(colors) {
 }
 
 async function getColors() {
-    let response = await fetch("https://api//g.co/kgs/HHjDhG?count=25")
+    let response = await fetch("https://api.noopschallenge.com/hexbot?count=25")
     let data = await response.json()
     let colors = data.colors
     
